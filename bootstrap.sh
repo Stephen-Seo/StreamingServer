@@ -13,7 +13,7 @@ fi
 if [ ! -d /usr/local/nginx ]; then
     pushd /nginx
 
-    ./configure --with-http_ssl_module --add-module=../nginx-rtmp-module
+    ./auto/configure --with-http_ssl_module --add-module=/nginx-rtmp-module
     make
     sudo make install
 
