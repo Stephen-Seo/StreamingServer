@@ -3,6 +3,9 @@
 
 # Stream Server
 
+Make sure you do `git submodule update --init --recursive` before anything
+else!!
+
 ## First use
 
 Do `vagrant up` to start and provision the vm.
