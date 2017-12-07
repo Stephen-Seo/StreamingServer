@@ -1,4 +1,6 @@
 
+[Posted on this blog](https://seodisparate.com/blog/4)
+
 # Stream Server
 
 ## First use

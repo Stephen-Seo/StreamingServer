@@ -41,8 +41,10 @@ Vagrant.configure(2) do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
   config.vm.synced_folder ".", "/vagrant", disabled: true
-  config.vm.synced_folder "nginx", "/nginx"
-  config.vm.synced_folder "nginx-rtmp-module", "/nginx-rtmp-module"
+  config.vm.synced_folder "nginx", "/nginx", type: "rsync",
+    rsync__exclude: ".git/"
+  config.vm.synced_folder "nginx-rtmp-module", "/nginx-rtmp-module",
+    type: "rsync", rsync__exclude: ".git/"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
