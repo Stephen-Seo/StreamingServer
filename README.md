@@ -1,5 +1,5 @@
 
-[Posted on this blog](https://seodisparate.com/blog/4)
+[Posted on this blog](https://seodisparate.com/blog/entry/4)
 
 # Stream Server
 
